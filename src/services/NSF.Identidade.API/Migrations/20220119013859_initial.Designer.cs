@@ -10,8 +10,8 @@ using NSF.Identidade.API.Data;
 namespace NSF.Identidade.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220117220440_Initial")]
-    partial class Initial
+    [Migration("20220119013859_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
